@@ -1,0 +1,32 @@
+h1:not(:first-child) {
+	margin-top: 3rem;
+}
+
+h1, p {
+	text-indent: 2rem;
+}
+
+p {
+	padding: 0 10px 0 10px;
+	text-align: justify;
+}
+
+p:nth-child(4n) {
+	text-align: center;
+}
+
+p:nth-child(3n) {
+	text-align: right;
+}
+
+.Web-design {
+	color: red;
+	font-family: "Gill Sans", sans-serif;
+	font-style: italic;
+}
+
+.point {
+	color: #0AB000;
+	font-weight: bold;
+}
+
