@@ -1,0 +1,27 @@
+.red{
+	color:rgb(234, 0, 255);
+	font-family: 'Times New Roman', Times, serif;
+}
+.blue{
+	color:rgb(255, 242, 0);
+	font-family: Arial, Helvetica, sans-serif	;
+}
+.green{
+	color:#02d4c9;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.pink{
+	color:#ff00b7;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.orange{
+	color: rgb(255, 0, 93);
+	font-family: Comic Sans MS, Comic Sans, cursive
+}
+.purple{
+	color:rgb(128, 32, 0);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+	

@@ -1,0 +1,45 @@
+.red{
+	color:red;
+	font-family: Arial, sans-serif;
+}
+.blue{
+	color:blue;
+	font-family: Verdana, sans-serif;
+}
+.green{
+	color:#1ed402;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.pink{
+	color:#ff00b7;
+	font-family: Arial Narrow, sans-serif;
+}
+.orange{
+	color: orange;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif
+}
+.purple{
+	color:purple;
+	font-family: Impact, fantasy;
+	
+}
+.center {
+	display:block; 
+	margin:0 auto;
+}
+img {
+	box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+}
+.lefting {
+	float: left;
+	margin: 1em;
+}
+.righting {
+	float: right;
+	margin: 1em;
+}
+
+
+
+
+	

@@ -1,0 +1,114 @@
+.red{
+	color:red;
+	font-family: Arial, sans-serif;
+}
+.blue{
+	color:blue;
+	font-family: Verdana, sans-serif;
+}
+.green{
+	color:#1ed402;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.pink{
+	color:#ff00b7;
+	font-family: Arial Narrow, sans-serif;
+}
+.orange{
+	color: orange;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif
+}
+.purple{
+	color:purple;
+	font-family: Impact, fantasy;
+	
+}
+.center {
+	display:block; 
+	margin:0 auto;
+}
+img {
+	box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+}
+.lefting {
+	float: left;
+	margin: 1em;
+}
+.righting {
+	float: right;
+	margin: 1em;
+}
+.table1 {
+	width: 500px; 
+    border-collapse: collapse; 
+	background: linear-gradient(45deg, #FFFFFF, #FFFF00);
+
+}
+.td1 {
+
+	text-align: center;
+	padding: 3px; 
+    border: 1px solid #FFD700;
+}
+
+
+.table2 {
+	width: 700px;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+}
+
+.tr2 {
+	background: linear-gradient(to bottom, #E0FFFF 1%, white );
+	border-bottom: solid #000080;
+	color: #15428c;
+	text-align: center;
+}
+
+.td2 {
+	border-right: 2px solid #D3D3D3;
+}
+
+.firsttd {
+	color: #15428c;
+	background: linear-gradient(to right, #ADD8E6, #B0C4DE);
+	border: 2px solid #A9A9A9;
+}
+
+.secondtd {
+	color: #808080;
+	background-color: #DCDCDC;
+	border: 2px solid #A9A9A9;
+	text-align: center;
+}
+
+.lasttr {
+	height: 50px;
+	border: 2px solid #A9A9A9;
+	text-align: center;
+}
+
+.lasttd {
+	border: 2px solid #A9A9A9;
+	font-weight: bold;
+	
+}
+
+.hardtable {
+	width: 40%;
+	border-collapse:collapse;
+	border: 1px solid #595959;
+}
+
+.hardtr {
+	border: 1px solid #595959;
+	height: 40%;
+}
+
+.hardtd {
+	border: 1px solid #595959;
+	text-align: center;
+	
+}
+
+	
