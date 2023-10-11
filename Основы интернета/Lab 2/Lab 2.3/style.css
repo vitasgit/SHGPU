@@ -19,24 +19,82 @@ p:nth-child(3n) {
 	text-align: right;
 }
 
-li:nth-child(1) {
+ul li:nth-child(1) {
 	color: rgb(144, 238, 144);
 }
 
-li:nth-child(2) {
+ul li:nth-child(2) {
 	color: rgb(0, 255, 127);
+	list-style-type: circle;
 }
 
-li:nth-child(3) {
+ul li:nth-child(3) {
 	color: rgb(0, 255, 0);
+	list-style-type: square;
 }
 
-li:nth-child(4) {
+ul li:nth-child(4) {
 	color: rgb(0, 128, 0);
+	list-style-type: circle;
 }
 
-li:nth-child(5) {
+ul li:nth-child(5) {
 	color: rgb(0, 100, 0);
+	list-style-type: square;
+}
+
+ol li {
+	margin-left: -8px;
+	list-style-type: none;
+
+}
+
+ol li:nth-child(1)::before {
+	position: relative;
+  	content: "5";
+  	padding: 0;
+  	margin: 0;
+  	left: -5px;
+}
+
+ol li:nth-child(2)::before {
+	position: relative;
+  	content: "6";
+  	padding: 0;
+  	margin: 0;
+  	left: -5px;
+}
+
+ol li:nth-child(3)::before {
+	position: relative;
+  	content: "7";
+  	padding: 0;
+  	margin: 0;
+  	left: -5px;
+}
+
+ol li:nth-child(4)::before {
+	position: relative;
+  	content: "8";
+  	padding: 0;
+  	margin: 0;
+  	left: -5px;
+}
+
+ol li:nth-child(5)::before {
+	position: relative;
+  	content: "9";
+  	padding: 0;
+  	margin: 0;
+  	left: -5px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dt + dd {
+	margin-bottom: 1rem;
 }
 
 .Web-design {
@@ -50,3 +108,34 @@ li:nth-child(5) {
 	font-weight: bold;
 }
 
+
+/*images section*/
+.img-block-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.img-block-2 {
+	display: flex;
+	justify-content: right;
+}
+
+.img-block-3 {
+	display: flex;
+	justify-content: left;
+}
+
+.img-block-1 img {
+	height: 30%;
+	width: 30%;
+}
+
+.img-block-2 img {
+	width: 10px;
+	height: 10px;
+}
+
+.img-block-3 img {
+	width: 20pt;
+	height: 20pt;
+}
