@@ -1,0 +1,20 @@
+table{
+  border-collapse: collapse;
+  font-size: 20px;
+  background: linear-gradient(45deg, #FFFFFF, #FFFF00);
+}
+
+td {
+	border: solid #FFC300;
+	width: 254px;
+	height: 35px;
+
+	text-align: center;
+	vertical-align: top;
+}
+
+.header {
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline 3px;
+}
