@@ -1,10 +1,18 @@
-table{
-  border-collapse: collapse;
-  font-size: 20px;
-  background: linear-gradient(45deg, #FFFFFF, #FFFF00);
+table {
+	border-collapse: collapse;
+	font-size: 20px;
+	margin-top: 48px;
+	margin-left: 24px;
 }
 
 td {
+	border: solid;}
+
+.first {
+	background: linear-gradient(45deg, #FFFFFF, #FFFF00);
+}
+
+.first td {
 	border: solid #FFC300;
 	width: 254px;
 	height: 35px;
@@ -17,4 +25,52 @@ td {
 	font-weight: bold;
 	font-size: 24px;
 	text-decoration: underline 3px;
+}
+
+/*------------------------- /.first table -----------------------------*/
+
+.second {
+	background-color: #E6E6E6;
+	text-align: center;
+	color: grey;
+}
+
+.second td {
+	width: 250px;
+	height: 80px;
+	border: solid grey;
+}
+
+.second .thead {
+	background: linear-gradient(to bottom, #E0FFFF 1%, white );
+}
+
+.second .tfoot {
+	background: white;
+	font-weight: bold;
+	color: black;
+}
+
+.second .thead,
+.col td:first-child {
+	color: #363F79;
+	font-weight: bold;
+}
+
+.col td:first-child,
+.thead td:first-child,
+.tfoot td:first-child {
+	text-align-last: left;
+	padding-left: 10px;
+}
+
+.col td:first-child {
+	background: #B6C9FF;
+}
+
+/*------------------------- /.second table -----------------------------*/
+
+.third td {
+	text-align: center;
+	padding: 16px;
 }
