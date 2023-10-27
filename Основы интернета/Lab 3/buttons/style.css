@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: rgb(230, 230, 230);
+}
+
+
+/* ------ figure 1 ------ */
+.box {
+    width: 400px;
+    height: 200px;
+
+    border: solid 5px red;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+
+    margin: 20px;
+}
+/* ------ /.figure 1 ------ */
+
+
+/* ------ button ------ */
+a {
+    width: 280px;
+    display: inline-block;
+    box-sizing: border-box;
+
+    font-family: Roboto, sans-serif;
+    font-size: 1.12rem;
+    letter-spacing: .05rem;
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #e2761d;
+
+    border: solid white;
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    padding: 1rem;
+    margin: 2rem;
+}
+/* ------ /.button ------ */
+
+
+/* ------ figures ------ */
+.box3 {
+    display: flex;
+    padding: 2rem;
+}
+
+.figure1 {
+    width: 150px;
+    height: 150px;
+
+    background: #f0c0ff;
+
+    border: solid 5px #9838be;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    margin-right: 60px;
+}
+
+.figure2 {
+    width: 150px;
+    height: 150px;
+
+    background: #ffac74;
+    
+    border: solid 5px rgb(221, 111, 21);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+/* ------ /.figures ------ */
