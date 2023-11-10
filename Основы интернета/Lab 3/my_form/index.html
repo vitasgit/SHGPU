@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+  <html>
+    <head>
+      <title>Моя форма</title>
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <form>
+      <fieldset>
+          <legend>Заявление</legend>
+          
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Имя">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Эл. почта</label>
+            <input id="email" type="email" placeholder="Email">
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel" name="phone" pattern="7[0-9]{10}" placeholder="Например, 79123456789">
+          </div>
+
+          <div class="form-group">
+            <span>Ваше образвание</span>
+            <select>
+              <option>Высшее</option>
+              <option>Среднее специальное</option>
+              <option>Среднее общее</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <span>Пол</span>
+            <input class="gender-input" id="male" type="radio" name="gender"/>
+            <label class="gender-label" for="male">Мужской</label>
+
+            <input class="gender-input" id="female" type="radio" name="gender"/>
+            <label class="gender-label" for="female">Женский</label>
+          </div>
+
+          <div class="form-group">
+            <textarea placeholder="Сообщение"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="checkbox">Согласен c условиями</label>
+            <input class="checkbox-input" type="checkbox" id="checkbox" name="agree">
+          </div>
+
+          <div class="form-btns">
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+          </div>
+        </fieldset>
+      </form>
+    </body>
+    </html>

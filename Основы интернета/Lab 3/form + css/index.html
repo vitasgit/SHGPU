@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Lab 3</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="" method="post">
+		<fieldset>
+			<legend>Online заявка</legend>
+			<img src="a dog.jpg" alt="a dog">
+
+			<div class="form-group">
+				<label for="input_name">Фамилия Имя Отчество</label>
+				<input type="text" name="name" id="input_name">
+			</div>
+
+			<div class="form-group">
+				<label for="input_company">Название компании</label>
+				<input type="text" id="input_company">
+			</div>
+
+			<div class="form-group">
+				<label for="input_phone">Контактный телефон</label>
+				<div class="tel">
+					<span>например: (495) 617-17-56</span>
+					<input type="tel" id="input_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="input_mail">Контактный e-mail</label>
+				<input type="mail" id="input_mail">
+			</div>
+
+			<div class="form-group form-text">
+				<label for="input_name">Текст сообщения</label>
+				<textarea placeholder="Введите текст"></textarea>
+			</div>
+
+			<div class="form-btn">
+				<label></label>
+				<button type="submit">Отправить</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
