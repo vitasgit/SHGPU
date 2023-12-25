@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: block;
+}
+
+.row {
+    height: 25%;
+}
+
+.el {
+    width: 100px;
+    height: 100%;
+    background: rgb(75, 75, 241);
+    border: solid 4px white;
+}

@@ -3,26 +3,27 @@
   <html>
     <head>
       <title>Моя форма</title>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
       <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-      <form>
+      <form action="" method="post">
       <fieldset>
           <legend>Заявление</legend>
           
           <div class="form-group">
             <label for="name">Имя</label>
-            <input id="name" type="text" placeholder="Имя">
+            <input id="name" type="text">
           </div>
           
           <div class="form-group">
             <label for="email">Эл. почта</label>
-            <input id="email" type="email" placeholder="Email">
+            <input id="email" type="text">
           </div>
           
           <div class="form-group">
             <label for="phone">Телефон</label>
-            <input id="phone" type="tel" name="phone" pattern="7[0-9]{10}" placeholder="Например, 79123456789">
+            <input id="phone" type="text" name="phone">
           </div>
 
           <div class="form-group">
@@ -36,15 +37,15 @@
 
           <div class="form-group">
             <span>Пол</span>
-            <input class="gender-input" id="male" type="radio" name="gender"/>
+            <input class="gender-input" id="male" type="radio" name="gender">
             <label class="gender-label" for="male">Мужской</label>
 
-            <input class="gender-input" id="female" type="radio" name="gender"/>
+            <input class="gender-input" id="female" type="radio" name="gender">
             <label class="gender-label" for="female">Женский</label>
           </div>
 
           <div class="form-group">
-            <textarea placeholder="Сообщение"></textarea>
+            <textarea cols="1" rows="1"></textarea>
           </div>
           
           <div class="form-group">
