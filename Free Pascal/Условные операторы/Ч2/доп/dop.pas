@@ -1,18 +1,16 @@
-program CheckPointInsideCircle;
-uses crt;
+program CheckPoint;
 
 var
   x, y, distance: Real;
 
 begin
-  clrscr;
   WriteLn('Введите координаты точки A(x, y):');
   ReadLn(x, y);
 
-  distance := x * x + y * y;  // Расчет квадрата расстояния до начала координат
+  distance := x*x + y*y;
 
-  if distance <= 100 then  // Сравниваем с квадратом радиуса круга
-    WriteLn('Точка находится внутри круга или на его границе.')
+  if distance <= 100 then
+    WriteLn('Точка находится внутри круга')
   else
-    WriteLn('Точка находится вне круга.');
+    WriteLn('Точка находится вне круга');
 end.
