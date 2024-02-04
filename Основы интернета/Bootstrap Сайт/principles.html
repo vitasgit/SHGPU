@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Принципы работы поисковых технологий</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <div class="logo">
+            <a class="navbar-brand" href="main.html">
+              <img src="img/logo.png" alt="logo" class="logo-icon">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="main.html#features">Структура</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Контакнты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resources.html">Источники</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <section class="principles">
+      <article class="principles-block pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 scrollspy-navbar">
+              <!-- Navbar for Scrollspy -->
+              <nav id="navbar" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#item-1">Введение</a>
+                  <a class="nav-link" href="#item-2">Индексация</a>
+                  <a class="nav-link" href="#item-3">Ранжирование</a>
+                  <a class="nav-link" href="#item-4">Алгоритмы поиска</a>
+                  <a class="nav-link" href="#item-5">Заключение</a>
+                </nav>
+              </nav>
+            </div>
+              <div class="col-sm-12 col-md-8 scrollspy-block">
+                <!-- Scrollable Container for Scrollspy -->
+                <div class="scrollspy"  data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
+                  <!-- content -->
+                  <div class="scrollspy-heading text-center pb-5">
+                    <h1>Принципы работы поисковых систем</h1>
+                  </div>
+                  
+                  <div id="item-1">
+                    <h4>Введение</h4>
+                    <p>
+                      В настоящей статье рассмотрены основные компоненты поисковых систем, которые играют фундаментальную роль в процессе организации и предоставления пользователю информации из мировой паутины. Эти компоненты включают в себя индексацию, ранжирование и алгоритмы поиска.
+                    </p>
+                  </div>
+
+                  <div id="item-2">
+                    <h4>Индексация</h4>
+                    <p>
+                      Индексация является первым этапом в работе поисковых систем, и она олицетворяет собой сложный процесс, включающий несколько ключевых шагов.
+                    </p>
+
+                    <p>
+                      <ul>
+                        <li>
+                          <span class="fst-italic">Сбор данных</span>: Поисковые системы активно используют специальные программы, известные как "пауки" или "краулеры", которые автоматически обходят интернет-пространство, переходя по гиперссылкам с веб-страниц на веб-страницу и собирая информацию о содержании каждой страницы.
+                        </li>
+
+                        <li>
+                          <span class="fst-italic">Обработка и анализ страниц</span>: Собранные данные подвергаются глубокому анализу, в рамках которого используются алгоритмы обработки естественного языка (Natural Language Processing - NLP) для выделения ключевых слов, тем, а также других важных элементов. Это позволяет понять, о чем конкретно каждая страница.
+                        </li>
+
+                        <li>
+                          <span class="fst-italic">Создание индекса</span>: Полученная информация о каждой веб-странице организуется в структурированный индекс, который можно сравнить с огромным каталогом, где каждая страница классифицирована по ряду критериев, таких как ключевые слова, метаданные, структура и многое другое. Этот индекс становится основой для поисковых запросов пользователей.
+                        </li>
+                      </ul>
+                    </p>
+
+                    <figure class="figure">
+                      <img class="figure-img img-fluid rounded" src="img/индексация.png" alt="индексация">
+                      <figcaption>Иллюстрация работы индексации</figcaption>
+                    </figure>
+                  </div>
+
+                  <div id="item-3">
+                    <h4>Ранжирование</h4>
+                    <p>
+                      Ранжирование - это следующий этап, который определяет релевантность веб-страниц к конкретным запросам пользователей и порядок их отображения. Этот компонент критически важен для обеспечения пользователей наиболее подходящими и полезными результатами.
+                    </p>
+                    <p>
+                      <ul>
+                        <li>
+                          <span class="fst-italic">Алгоритмы ранжирования</span>: Поисковые системы используют сложные алгоритмы, которые оценивают каждую страницу по множеству факторов, таких как частота и распределение ключевых слов, качество и количество внешних ссылок, возраст контента, пользовательский опыт и многие другие параметры. Эти алгоритмы работают с целью выявить, какие страницы наиболее соответствуют запросу пользователя.
+                        </li>
+
+                        <li>
+                          <span class="fst-italic">Персонализация</span>: Некоторые поисковые системы учитывают индивидуальные предпочтения пользователя, анализируя его историю поиска и поведение в интернете. Это позволяет предоставить персонализированные результаты, которые лучше соответствуют интересам конкретного пользователя.
+                        </li>
+
+                        <li>
+                          <span class="fst-italic">Борьба со спамом</span>: Важной составляющей ранжирования является борьба со спамом и низкокачественным контентом, чтобы пользователь получал наиболее полезные и достоверные результаты.
+                        </li>
+                      </ul>
+                    </p>
+
+                    <figure class="figure">
+                      <img class="figure-img img-fluid rounded" src="img/ранжирование.png" alt="ранжирование">
+                      <figcaption>Иллюстрация ранжирования</figcaption>
+                    </figure>
+                  </div>
+
+                  <div id="item-4">
+                    <h4>Алгоритмы поиска</h4>
+                    <p>
+                      Алгоритмы поиска - это высокоинтеллектуальные системы, которые обрабатывают запросы пользователей и выбирают соответствующие результаты из созданного индекса.
+                    </p>
+                    <p>
+                      <ul>
+                        <li>
+                          <span class="fst-italic">Понимание запросов</span>: Алгоритмы поиска должны точно интерпретировать запрос пользователя, учитывая его намерения и контекст. Это включает в себя анализ естественного языка и семантический поиск, чтобы понять смысл запроса.
+                        </li>
+
+                        <li>
+                          <span class="fst-italic">Выбор и представление результатов</span>: После обработки запроса алгоритм выбирает наиболее подходящие страницы из индекса и решает, как они будут представлены пользователю, например, в виде списка ссылок, сниппетов, картинок, видео и других форматов, чтобы максимально удовлетворить запрос пользователя.
+                        </li>
+
+                        <li>
+                          <span class="fst-italic">Постоянное обновление</span>: Алгоритмы поиска регулярно обновляются и усовершенствуются для обеспечения точности, скорости и полезности результатов поиска, а также для адаптации к изменяющимся требованиям пользователей и веб-среды.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+
+                  <div id="item-5">
+                    <h4>Заключение</h4>
+                    <p>
+                      В итоге, эти три компонента - индексация, ранжирование и алгоритмы поиска - совместно работают, чтобы обеспечить пользователям мгновенный доступ к огромному объему информации в Сети и предоставить наиболее релевантные и полезные результаты поиска, подстраиваясь под их запросы и потребности.
+                    </p>
+                  </div>
+                  <!-- /.content -->
+                </div>
+                <!-- /.scrollspy -->
+              </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </article>
+      <!-- /.principles-block -->
+  </section>
+  <!-- /.principles section -->
+
+  <footer class="footer text-center mt-4" id="footer">
+    <div class="container-fluid bg-dark pt-4 pb-4">
+      <span>Жданов В.А. 2024</span>
+    </div>
+  </footer>
+
+<!-- Bootstrap Bundle JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
